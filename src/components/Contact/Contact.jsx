@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/contactSlice";
+import { deleteContact } from "../../redux/contactsOps"; // Updated import
 import styles from "./contact.module.css";
 
 function Contact({ contact }) {
